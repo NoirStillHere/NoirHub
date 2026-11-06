@@ -18,7 +18,7 @@ if OldGui then OldGui:Destroy() end
 
 local NoirUI = { Notifications = {}, ActiveConfirmFrame = nil, CustomCommands = {}, Connections = {}, Glows = {}, TabGroups = {} }
 
-local LucideIcons = loadstring(game:HttpGet("https://raw.githubusercontent.com/NoirStillHere/NoirUI/refs/heads/main/modules/Base_Icons.lua"))()
+local LucideIcons = loadstring(game:HttpGet("https://raw.githubusercontent.com/NoirStillHere/NoirHub/refs/heads/main/Old/UI.lua"))()
 
 local function ResolveIcon(iconInput)
     if not iconInput then return nil end
