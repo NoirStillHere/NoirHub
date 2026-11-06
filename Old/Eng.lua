@@ -1683,7 +1683,7 @@ end)
 -- ======================== LIMBS TAB ========================
 LimbsTab:CreateSection("Limbs")
 
-local LimbExtender = loadstring(game:HttpGet("https://raw.githubusercontent.com/AAPVdev/scripts/refs/heads/main/LimbExtender.lua"))()
+local LimbExtender = loadstring(game:HttpGet("https://raw.githubusercontent.com/NoirStillHere/nScripts/refs/heads/main/Sub/Limb_Extender_Library"))()
 local le = LimbExtender({ LISTEN_FOR_INPUT = false, USE_HIGHLIGHT = false })
 
 LimbsTab:CreateToggle({ Name = "Modify Limbs", Default = false, Callback = function(v) le:Toggle(v) end })
